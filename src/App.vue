@@ -239,7 +239,7 @@
       <div class="row">
         <div data-aos="fade-right" class="col-md-6 mb-4">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p1.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p1.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card1.text') }}</h3>
               <p>{{ $t('project.card1.desc') }}</p>
@@ -248,7 +248,7 @@
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p2.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p2.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card2.text') }}</h3>
               <p>{{ $t('project.card2.desc') }}</p>
@@ -257,7 +257,7 @@
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p3.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p3.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card3.text') }}</h3>
               <p>{{ $t('project.card3.desc') }}</p>
@@ -266,7 +266,7 @@
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p4.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p4.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card4.text') }}</h3>
               <p>{{ $t('project.card4.desc') }}</p>
@@ -275,7 +275,7 @@
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4 mb-md-0">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p5.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p5.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card5.text') }}</h3>
               <p>{{ $t('project.card5.desc') }}</p>
@@ -284,7 +284,7 @@
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4 mb-md-0">
           <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p6.webp);">
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p6.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card6.text') }}</h3>
               <p>{{ $t('project.card6.desc') }}</p>
