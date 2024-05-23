@@ -984,7 +984,7 @@ img {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .045em;
-    font-size: 5.35rem;
+    font-size: 4.35rem;
     font-weight: 700;
     line-height: 1.3;
     max-width: 800px;
@@ -1185,6 +1185,7 @@ img {
 // Project Styles
 
 .project {
+  overflow: hidden;
   padding-top: 50px;
   padding-bottom: 70px;
 
