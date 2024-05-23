@@ -1,0 +1,78 @@
+{
+    "header": {
+        "menu1" : "Ma'lumotlar",
+        "menu2" : "Biz haqimizda",
+        "menu3" : "Korxonalar",
+        "menu4" : "Afzalliklarimiz",
+        "menu5" : "Yangiliklar",
+        "menu6" : "Aloqa"
+    },
+    "hero" : {
+        "company": "ATAEV BAHODIR QURILISHI",
+        "text" : "Hamma narsada a'lo",
+        "button1" : "Bizning loyihalarimiz",
+        "button2" : "Bog'lanish"
+    },
+    "service" : {
+        "main" : "Bizning xizmatlarimiz",
+        "service1" : "Siz kompaniyamiz mutaxassislaridan bepul ma'lumot olishingiz mumkin",
+        "service2" : "Hujjatlarni rasmiylashtirish",
+        "service3" : "Ta`mirlash tuzatish xizmati",
+        "service4" : "Professionallar jamoasi"
+    },
+    "company" : {
+        "text": "Bizning kompaniyada",
+        "employee" : "Xodimlar soni",
+        "objects" : "Ob'ektlar",
+        "equipment": "Maxsus jihozlar",
+        "year" : "Bozorda 14 yil"
+    },
+    "dream" : "Sizning orzuingizdagi uy",
+    "project" : {
+        "text" : "Bizning loyihalarimiz",
+        "card1": {
+            "text": "Magic City",
+            "desc": "Bu keng ko'lamli ijtimoiy ahamiyatga ega loyiha. Toshkentdagi madaniy-ko'ngilochar klaster yangi diqqatga sazovor joylardan biridir."
+        },
+        "card2": {
+            "text": "Gardens Residence",
+            "desc": "O'zbekiston aholisiga qulaylik yaratish maqsadida yaratilgan ko'p funksiyali turar-joy majmuasi."
+        },
+        "card3": {
+            "text": "Fonon",
+            "desc": "Poytaxt markazidagi muhtasham turar-joy massivi."
+        },
+        "card4": {
+            "text": "Invento",
+            "desc": "Fonon - O'zbekistonda 2020 yilda italyan zavodlari negizida qurilgan zargarlik buyumlari ishlab chiqarish zavodi. Fonon - Markaziy Osiyoda Yevropa va Sharq uslubida qimmatbaho metallardan zargarlik buyumlari ishlab chiqaradigan yagona yirik korxona"
+        },
+        "card5": {
+            "text": "Presidential School",
+            "desc": "Tashkent City xalqaro biznes markazida joylashgan xalqaro bolalar bog'chasi va maktabi."
+        },
+        "card6": {
+            "text": "Boulevard",
+            "desc": "Bu xalqaro darajada bilim beradigan ta'lim muassasasi"
+        }
+    },
+    "news" : {
+        "text": "Barcha yangiliklarimiz",
+        "card1": {
+            "text" : "Qurilish loyihasi menejeri kim?",
+            "desc" : "Discover Invest kompaniyasida qurilish loyihasi bo'yicha bir nechta menejerlar mavjud. Bu mutaxassis o'ziga ishonib topshirilgan qurilish ob'ektini muvaffaqiyatli amalga oshirish uchun mas'uldir. U rejalashtirish bosqichidan va loyiha hujjatlarini tasdiqlashdan tortib, ishga tushirishgacha bo'lgan butun jarayonni boshqaradi. binoning, va ba'zan ham loyihadan keyingi yordamni amalga oshiradi. Eng so'nggi"
+        },
+        "card2": {
+            "text" : "Barchani kelayotgan 2024 yil bilan tabriklayman!",
+            "desc" : "Zallarning murakkab ichki dizayni kvartiraga kirishdan oldin ham qulaylik muhitini yaratadi va qulay navigatsiya tizimi sizga kerakli qavatga osongina chiqishga yoki hududga chiqishga yordam beradi."
+        },
+        "card3": {
+            "text" : "Manzil",
+            "desc" : "Transport infratuzilmasi shaharning istalgan nuqtasiga osongina ko'chib o'tishga imkon beradi: siz faqat kerakli va kerakli yo'nalishni tanlashingiz kerak."
+        },
+        "card4": {
+            "text" : "Biz sizni Discover Invest ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz.",
+            "desc" : "Biz sizlarni 'ATAEV BAHODIR BUILD' kompaniyasining ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz. Ulardan biri Toshkent shahrining Yangixoyat tumanida barpo etilgan 'Yangi Choshtepa turar-joy majmuasidir. Qurilishning umumiy maydoni 12 gektarni tashkil etadi. Shu kungacha 29 ta uy-joy qurildi. qurilgan."
+        }
+    },
+    "exchange" : "Hamkorlar bilan fikr almashish"
+}
