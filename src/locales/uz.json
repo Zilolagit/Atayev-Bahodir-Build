@@ -74,5 +74,32 @@
             "desc" : "Biz sizlarni 'ATAEV BAHODIR BUILD' kompaniyasining ko'p funksiyali ob'ektlari bilan tanishtirishda davom etamiz. Ulardan biri Toshkent shahrining Yangixoyat tumanida barpo etilgan 'Yangi Choshtepa turar-joy majmuasidir. Qurilishning umumiy maydoni 12 gektarni tashkil etadi. Shu kungacha 29 ta uy-joy qurildi. qurilgan."
         }
     },
-    "exchange" : "Hamkorlar bilan fikr almashish"
+    "exchange" : "Hamkorlar bilan fikr almashish",
+    "building" : {
+        "text": "Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz. Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz. Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va infratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologik jihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.",
+        "btn" : "Batafsil Bilish"
+    },
+    "contact": {
+        "text": "Savol, taklif va murojaatlar bormi?",
+        "name" : "Ismingiz",
+        "phone" : "Telefon Raqamingiz",
+        "message" : "Sizning Xabaringiz",
+        "btn" : "Yuborish"
+    },
+    "popup": {
+        "text": "Xabaringiz Mavaffaqiyatli Yetkazildi",
+        "error": "Muammo yuz berdi",
+        "btn" : "Ok"
+    },
+    "footer" : {
+        "desc" : "Ijtimoiy tarmoqlarimizga obuna bo'ling",
+        "company" : "Kompaniyamiz",
+        "contact" : "Aloqa",
+        "menu1": {
+            "text1" : "Korxonalar",
+            "text2" : "Biz haqimizda",
+            "text3" : "Yangiliklar",
+            "text4" : "Bizning loyihalarimiz"
+        }
+    }
 }

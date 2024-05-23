@@ -136,28 +136,32 @@
       </div>
       <div class="row">
         <div class="col-md-8 mb-4 mb-md-0">
-          <div data-aos="fade-up" class="service__box service__box-1" style="background-image: url(/s1.png); transition: all .3s ease; ">
+          <div data-aos="fade-up" class="service__box service__box-1"
+            style="background-image: url(/s1.png); transition: all .3s ease; ">
             <div class="service__title">
               <h2>{{ $t('service.service1') }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div data-aos="fade-up" class="service__box service__box-2" style="background-image: url(/s2.png); transition: all .3s ease;">
+          <div data-aos="fade-up" class="service__box service__box-2"
+            style="background-image: url(/s2.png); transition: all .3s ease;">
             <div class="service__title">
               <h2>{{ $t('service.service2') }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-4">
-          <div data-aos="fade-up" class="service__box service__box-3" style="background-image: url(/s3.png); transition: all .3s ease;">
+          <div data-aos="fade-up" class="service__box service__box-3"
+            style="background-image: url(/s3.png); transition: all .3s ease;">
             <div class="service__title">
               <h2>{{ $t('service.service3') }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-8 mt-4">
-          <div data-aos="fade-up" class="service__box service__box-4" style="background-image: url(/s4.png); transition: all .3s ease;">
+          <div data-aos="fade-up" class="service__box service__box-4"
+            style="background-image: url(/s4.png); transition: all .3s ease;">
             <div class="service__title">
               <h2>{{ $t('service.service4') }}</h2>
             </div>
@@ -234,7 +238,8 @@
       </div>
       <div class="row">
         <div data-aos="fade-right" class="col-md-6 mb-4">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p1.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p1.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card1.text') }}</h3>
               <p>{{ $t('project.card1.desc') }}</p>
@@ -242,7 +247,8 @@
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p2.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p2.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card2.text') }}</h3>
               <p>{{ $t('project.card2.desc') }}</p>
@@ -250,7 +256,8 @@
           </div>
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p3.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p3.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card3.text') }}</h3>
               <p>{{ $t('project.card3.desc') }}</p>
@@ -258,7 +265,8 @@
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p4.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p4.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card4.text') }}</h3>
               <p>{{ $t('project.card4.desc') }}</p>
@@ -266,7 +274,8 @@
           </div>
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4 mb-md-0">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p5.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p5.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card5.text') }}</h3>
               <p>{{ $t('project.card5.desc') }}</p>
@@ -274,7 +283,8 @@
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4 mb-md-0">
-          <div class="project__card" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p6.webp);">
+          <div class="project__card"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/public/p6.webp);">
             <div class="project__box">
               <h3>{{ $t('project.card6.text') }}</h3>
               <p>{{ $t('project.card6.desc') }}</p>
@@ -394,6 +404,115 @@
   </section>
   <!-- Exchange End -->
 
+  <!-- Building Start -->
+  <section class="building">
+    <div class="container">
+      <div class="building__text">
+        <h2>{{ $t('hero.company') }}</h2>
+      </div>
+      <div class="building__desc">
+        <p>{{ $t('building.text') }}</p>
+      </div>
+      <div class="building__btn">
+        <a class="button" href="#projects">
+          <span class="label">{{ $t('building.btn') }}</span>
+          <span class="icon">
+            <span></span>
+          </span>
+          <span class="icon2">
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Building End -->
+
+  <!-- Contact Start -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact__box">
+        <div class="contact__text">
+          <h2>{{ $t('contact.text') }}</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <form @submit.prevent="submitForm">
+              <div class="mb-3">
+                <input type="text" v-model="fullName" class="form-control form-control-lg"
+                  :placeholder="`${$t('contact.name')}`">
+              </div>
+              <div class="mb-3">
+                <input type="tel" v-model="phone_number" class="form-control form-control-lg"
+                  :placeholder="`${$t('contact.phone')}`">
+              </div>
+              <div class="mb-3 mt-4">
+                <textarea class="form-control form-control-lg" v-model="message"
+                  :placeholder="`${$t('contact.message')}`" rows="6"></textarea>
+              </div>
+              <div class="contact__btn">
+                <button type="submit">{{ $t('contact.btn') }}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact End -->
+
+  <div class="popup" v-if="isOpen">
+    <div class="popup__box text-center">
+      <i v-if="isError == false" class="fa-regular fa-circle-check"></i>
+      <i v-else class="fa-regular fa-circle-xmark" style="color: red;"></i>
+      <h4 v-if="isError == false">
+        {{ $t('popup.text') }}
+      </h4>
+      <h4 v-else>
+        {{ $t('popup.error') }}
+      </h4>
+      <button @click="closePop">{{ $t('popup.btn') }}</button>
+    </div>
+  </div>
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="footer__logo">
+            <a href="/"><img src="/logof.png" alt=""></a>
+          </div>
+          <p>{{ $t('footer.desc') }}</p>
+          <ul class="footer__social">
+            <li><a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a></li>
+            <li><a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-5  mb-4  mb-lg-0">
+          <h4>{{ $t('footer.company') }}</h4>
+          <ul class="footer__menu">
+            <li><a href="#">{{ $t('footer.menu1.text1') }}</a></li>
+            <li><a href="#">{{ $t('footer.menu1.text2') }}</a></li>
+            <li><a href="#">{{ $t('footer.menu1.text3') }}</a></li>
+            <li><a href="#">{{ $t('footer.menu1.text4') }}</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2  mb-4 mb-lg-0 text-lg-end">
+          <h4 style="width: 100%; text-align: left;">{{ $t('footer.contact') }}</h4>
+          <ul class="footer__menu">
+            <li><a href="#">+998974839999</a></li>
+            <li><a href="#">+998997126666</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
 
 </template>
 
@@ -417,11 +536,20 @@ export default {
 <script setup>
 import { ref, onMounted } from 'vue';
 import { CountUp } from 'countup.js';
+import axios from 'axios';
 
 const counterEmployee = ref(null);
 const counterObjects = ref(null);
 const counterEquipment = ref(null);
 const counterYear = ref(null);
+const token = ref("7069003625:AAGAQJns8zC96OqRSQIwC8Ewj1efbWCnIW0")
+const chat_id = ref("237282713")
+const fullName = ref("")
+const phone_number = ref("")
+const message = ref("")
+
+const isOpen = ref(false)
+const isError = ref(false);
 
 const initCounters = () => {
   const options = {
@@ -463,6 +591,31 @@ const initCounters = () => {
 onMounted(() => {
   initCounters();
 });
+
+
+async function submitForm() {
+  try {
+    const response = await axios.post(
+      `https://api.telegram.org/bot${token.value}/sendMessage`,
+      {
+        chat_id: chat_id.value,
+        text: `Name: ${fullName.value}\nPhone Number: ${phone_number.value}\nMessage: ${message.value}`,
+      }
+    );
+    isOpen.value = true
+    fullName.value = "";
+    phone_number.value = "";
+    message.value = "";
+  } catch (error) {
+    isOpen.value = true
+    isError.value = true
+  }
+}
+function closePop() {
+  isOpen.value = false
+  isError.value = false
+}
+
 </script>
 
 <style lang="scss">
@@ -607,6 +760,55 @@ img {
 
 }
 
+
+// Popup Styles
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+
+  &__box {
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+
+  i {
+    color: green;
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    border: 1px solid #000;
+    padding: 10px 45px;
+    border-radius: 50px;
+    transition: all .3s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: #000;
+    }
+  }
+}
 
 // Header Styles
 
@@ -809,13 +1011,16 @@ img {
   padding-bottom: 70px;
   z-index: 99;
   position: relative;
+
   &__headline {
     text-align: center;
     margin-bottom: 50px;
+
     h2 {
       font-weight: 400;
     }
   }
+
   &__box {
     background-color: #2C3442;
     border-radius: 15px;
@@ -827,30 +1032,39 @@ img {
     background-repeat: no-repeat;
     cursor: pointer;
     overflow: hidden;
+
     h2 {
       font-size: 20px;
       color: #fff;
       max-width: 400px;
       line-height: 1.6;
     }
-    &-1, &-4 {
+
+    &-1,
+    &-4 {
       transition: all .3s ease;
       background-size: 35%;
     }
-    &-3,&-2{
+
+    &-3,
+    &-2 {
       transition: all .3s ease;
       background-size: 60%;
     }
+
     &-1:hover {
       background-size: 42%;
     }
+
     &-2:hover {
       background-size: 70%;
     }
+
     &-3:hover {
       background-size: 80%;
     }
-    &-4:hover{
+
+    &-4:hover {
       background-size: 42%;
     }
   }
@@ -860,30 +1074,36 @@ img {
 
 .company {
   margin-top: -25px;
-  padding-top:120px;
+  padding-top: 120px;
   padding-bottom: 120px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(/company.png);
+
   &__title {
     margin-bottom: 80px;
+
     h3 {
       color: #fff;
     }
   }
+
   &__flex {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     gap: 40px;
   }
+
   &__box {
     color: #fff;
+
     h2 {
       font-weight: 600;
       font-size: 50px;
     }
+
     span {
       font-size: 18px;
     }
@@ -896,21 +1116,26 @@ img {
   padding-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
+
   &__title {
     margin-bottom: 40px;
   }
+
   .col-6 {
     height: 350px;
     cursor: pointer;
     padding: 0 !important;
     transition: all .3s ease;
     overflow: hidden;
+
     &:hover {
       background-size: 140%;
+
       img {
         transform: scale(1.2);
       }
     }
+
     img {
       width: 100%;
       object-fit: cover;
@@ -920,27 +1145,33 @@ img {
     }
   }
 }
+
 // Dream Styles
 
 .exchange {
   padding-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
+
   &__title {
     margin-bottom: 40px;
   }
+
   .col-6 {
     height: 400px;
     cursor: pointer;
     padding: 0 !important;
     transition: all .3s ease;
     overflow: hidden;
+
     &:hover {
       background-size: 140%;
+
       img {
         transform: scale(1.2);
       }
     }
+
     img {
       width: 100%;
       object-fit: cover;
@@ -956,9 +1187,11 @@ img {
 .project {
   padding-top: 50px;
   padding-bottom: 70px;
+
   &__title {
     margin-bottom: 40px;
   }
+
   &__card {
     height: 350px;
     background-repeat: no-repeat;
@@ -966,16 +1199,20 @@ img {
     background-position: center;
     padding: 20px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: end;
     overflow: hidden;
     cursor: pointer;
-    h3, p {
+
+    h3,
+    p {
       color: #fff;
     }
+
     h3 {
       margin-bottom: 15px;
     }
+
     &:hover {
       .project__box {
         transform: translateY(0%);
@@ -983,6 +1220,7 @@ img {
 
     }
   }
+
   &__box {
     transform: translateY(90%);
     transition: all .4s ease;
@@ -996,41 +1234,209 @@ img {
   padding-top: 50px;
   padding-bottom: 60px;
   background-color: #F7F7F7;
+
   &__title {
     margin-bottom: 40px;
   }
+
   &__img {
     overflow: hidden;
     padding: 0;
   }
+
   &__box {
     background-color: #fbfbfb;
     box-shadow: 0 3.21616px 33.7697px rgba(0, 0, 0, .05);
     border-radius: 24px;
     overflow: hidden;
+
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
       transition: all .3s ease;
     }
+
     &:hover {
       img {
         transform: scale(1.3);
       }
     }
   }
+
   &__card {
-    min-height: 280px;
-    padding: 20px 20px 0px 0px ;
+    min-height: 310px;
+    padding: 20px 20px 0px 0px;
     cursor: pointer;
+
     h4 {
       font-size: 18px;
       line-height: 1.4;
       margin-bottom: 15px;
     }
+
     p {
       font-size: 12px;
+    }
+  }
+}
+
+// Building Style
+.building {
+  margin-top: 40px;
+  padding-top: 160px;
+  padding-bottom: 180px;
+  background-image: url(/b1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__text {
+    max-width: 400px;
+    margin-bottom: 20px;
+
+    h2 {
+      font-weight: 500;
+      font-size: 45px;
+      color: #fff;
+    }
+  }
+
+  &__desc {
+    max-width: 500px;
+    margin-bottom: 80px;
+
+    p {
+      color: #fff;
+    }
+  }
+}
+
+// Contact Style
+
+.contact {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #202733;
+
+  &__box {
+    background-image: url(/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 40px 90px;
+  }
+
+  &__text {
+    max-width: 400px;
+    margin-bottom: 60px;
+
+    h2 {
+      color: #fff;
+    }
+  }
+
+  form {
+    width: 100%;
+
+    input {
+      border-radius: 50px;
+      font-size: 16px;
+      padding: 12px 25px;
+    }
+
+    textarea {
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 20px;
+      resize: none;
+      margin-bottom: 40px;
+    }
+
+    button {
+      border: none;
+      padding: 12px 35px;
+      border-radius: 50px;
+      background: none;
+      border: 1px solid #fff;
+      color: #fff;
+      transition: all .3s ease;
+
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+// Footer Styles
+
+.footer {
+  background-color: #fce8bd;
+  padding-top: 70px;
+  padding-bottom: 50px;
+
+  &__logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  &__social {
+    display: flex;
+    gap: 20px;
+
+    li {
+      background-color: #000;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all .3s ease;
+      border: 1px solid transparent;
+
+      &:hover {
+        background: transparent;
+        border-color: #000;
+
+        a {
+          color: #000;
+        }
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  h4 {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  &__menu {
+      li {
+      position: relative;
+      margin-bottom: 15px;
+      font-size: 20px;
+
+      a {
+        color: #8b8686;
+        transition: all .3s ease;
+        &:hover {
+          color: #000;
+        }
+      }
     }
   }
 }
@@ -1038,9 +1444,15 @@ img {
 // Media Styles
 
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1140px;
-    }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
 }
 
 
@@ -1070,19 +1482,23 @@ img {
       font-size: 6vw;
     }
   }
+
   .company {
     &__box {
       h2 {
         font-size: 35px;
       }
+
       span {
         font-size: 15px;
       }
     }
+
     &__title {
       margin-bottom: 60px;
     }
   }
+
   .exchange {
     .col-6 {
       height: 250px;
@@ -1096,13 +1512,40 @@ img {
       padding-left: 20px;
       min-height: auto;
     }
+
     &__img {
       height: 200px;
+    }
+  }
+
+  .contact {
+    &__box {
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 }
 
 @media (max-width: 576px) {
+  .building {
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+    &__text {
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+    &__desc {
+      p {
+        font-size: 14px;
+      }
+
+      margin-bottom: 30px;
+    }
+  }
+
   .hero {
     padding-top: 150px;
     padding-bottom: 70px;
@@ -1115,6 +1558,7 @@ img {
       margin-bottom: 20px;
     }
   }
+
   .project {
     &__card {
       height: 300px;
@@ -1127,16 +1571,27 @@ img {
       padding: 10px 17px;
     }
   }
+
   .dream {
     .col-6 {
       height: 160px;
     }
   }
+
   .exchange {
     .col-6 {
       height: 200px;
     }
   }
+  .footer {
+    h4 {
+      font-size: 20px;
+    }
+    li {
+      font-size: 18px;
+    }
+  }
+
   .service {
     &__box {
       h2 {
@@ -1145,5 +1600,4 @@ img {
     }
   }
 }
-
 </style>

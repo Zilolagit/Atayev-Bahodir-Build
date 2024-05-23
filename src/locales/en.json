@@ -74,7 +74,34 @@
             "desc" : "We continue to introduce you to the multifunctional objects of Discover Invest. One of them is the Yangi Choshtepa residential complex built in the Yangihayat district of Tashkent. The total construction area is 12 hectares. To date, 29 houses have been built."
         }
     },
-    "exchange" : "Exchange ideas with partners"
+    "exchange" : "Exchange ideas with partners",
+    "building" : {
+        "text": "We don't just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for environmental aspects associated with the construction and operation of buildings and infrastructure",
+        "btn" : "Learn More"
+    },
+    "contact": {
+        "text": "Do you have any questions, suggestions or requests?",
+        "name" : "Your Name",
+        "phone" : "Your Phone Number",
+        "message" : "Your Message...",
+        "btn" : "Sending"
+    },
+    "popup": {
+        "text": "Your Message si delivered successfully",
+        "error": "A Problem Occured",
+        "btn" : "Ok"
+    },
+    "footer" : {
+        "desc" : "Subscribe to our social networks",
+        "company" : "Our company",
+        "contact" : "Communication",
+        "menu1": {
+            "text1" : "Enterprises",
+            "text2" : "About Us  ",
+            "text3" : "News",
+            "text4" : "Our Projects"
+        }
+    }
 
     
 }
