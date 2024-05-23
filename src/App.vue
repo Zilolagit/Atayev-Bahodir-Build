@@ -438,15 +438,15 @@
           <div class="col-lg-6">
             <form @submit.prevent="submitForm">
               <div class="mb-3">
-                <input type="text" v-model="fullName" class="form-control form-control-lg"
+                <input type="text" id="name" autocomplete="name" v-model="fullName" class="form-control form-control-lg"
                   :placeholder="`${$t('contact.name')}`">
               </div>
               <div class="mb-3">
-                <input type="tel" v-model="phone_number" class="form-control form-control-lg"
+                <input type="tel" id="phone" autocomplete="tel" v-model="phone_number" class="form-control form-control-lg"
                   :placeholder="`${$t('contact.phone')}`">
               </div>
               <div class="mb-3 mt-4">
-                <textarea class="form-control form-control-lg" v-model="message"
+                <textarea id="message" class="form-control form-control-lg" v-model="message"
                   :placeholder="`${$t('contact.message')}`" rows="6"></textarea>
               </div>
               <div class="contact__btn">
