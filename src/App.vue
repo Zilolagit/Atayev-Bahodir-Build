@@ -4,13 +4,13 @@
     <div class="container">
       <ul class="header__menu d-none d-md-flex">
         <li class="header__item">
-          <a href="#">{{ $t("header.menu1") }}</a>
+          <a href="#services">{{ $t("header.menu1") }}</a>
         </li>
         <li class="header__item">
-          <a href="#">{{ $t("header.menu2") }}</a>
+          <a href="#aboutUs">{{ $t("header.menu2") }}</a>
         </li>
         <li class="header__item">
-          <a href="#">{{ $t("header.menu3") }}</a>
+          <a href="#projects">{{ $t("header.menu3") }}</a>
         </li>
         <li class="header__item">
           <a href="/" class="header__logo">
@@ -18,60 +18,109 @@
           </a>
         </li>
         <li class="header__item">
-          <a href="#">{{ $t("header.menu4") }}</a>
+          <a href="#features">{{ $t("header.menu4") }}</a>
         </li>
         <li class="header__item">
-          <a href="#">{{ $t("header.menu5") }}</a>
+          <a href="#news">{{ $t("header.menu5") }}</a>
         </li>
         <li class="header__item">
-          <a href="#">{{ $t("header.menu6") }}</a>
+          <a href="#contact">{{ $t("header.menu6") }}</a>
         </li>
         <li class="header__item header__dropdown">
           <a href="#" class="header__main">{{ $i18n.locale }}</a>
           <ul class="header__dropdown-lang">
-            <li @click="changeLanguage('uz')" class="header__switch"><a href="#">UZ</a></li>
-            <li @click="changeLanguage('en')" class="header__switch"><a href="#">EN</a></li>
-            <li @click="changeLanguage('ru')" class="header__switch"><a href="#">RU</a></li>
+            <li @click="changeLanguage('uz')" class="header__switch">
+              <a href="#">UZ</a>
+            </li>
+            <li @click="changeLanguage('en')" class="header__switch">
+              <a href="#">EN</a>
+            </li>
+            <li @click="changeLanguage('ru')" class="header__switch">
+              <a href="#">RU</a>
+            </li>
           </ul>
         </li>
       </ul>
       <div class="row d-md-none">
         <div class="col-3 d-flex align-items-center">
-          <div class="btn header__toggle" data-bs-toggle="offcanvas" data-bs-target="#headerMenu"
-            aria-controls="offcanvasExample">
+          <div
+            class="btn header__toggle"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#headerMenu"
+            aria-controls="offcanvasExample"
+          >
             <i class="fa-solid fa-bars"></i>
           </div>
 
-          <div class="offcanvas offcanvas-start header__offcanvas" tabindex="-1" id="headerMenu"
-            aria-labelledby="headerMenu">
+          <div
+            class="offcanvas offcanvas-start header__offcanvas"
+            tabindex="-1"
+            id="headerMenu"
+            aria-labelledby="headerMenu"
+          >
             <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="offcanvas-body">
               <ul class="header__collect">
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu1") }}</a>
+                  <a href="#services"
+                    ><span data-bs-dismiss="offcanvas">{{
+                      $t("header.menu1")
+                    }}</span></a
+                  >
                 </li>
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu2") }}</a>
+                  <a href="#aboutUs"
+                    ><span data-bs-dismiss="offcanvas"
+                      >{{ $t("header.menu2") }}
+                    </span></a
+                  >
                 </li>
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu3") }}</a>
+                  <a href="#projects"
+                    ><span data-bs-dismiss="offcanvas"
+                      >{{ $t("header.menu3") }}
+                    </span></a
+                  >
                 </li>
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu4") }}</a>
+                  <a href="#features"
+                    ><span data-bs-dismiss="offcanvas"
+                      >{{ $t("header.menu4") }}
+                    </span></a
+                  >
                 </li>
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu5") }}</a>
+                  <a href="#news"
+                    ><span data-bs-dismiss="offcanvas"
+                      >{{ $t("header.menu5") }}
+                    </span></a
+                  >
                 </li>
                 <li class="header__nav">
-                  <a href="#">{{ $t("header.menu6") }}</a>
+                  <a href="#contact"
+                    ><span data-bs-dismiss="offcanvas"
+                      >{{ $t("header.menu6") }}
+                    </span></a
+                  >
                 </li>
                 <li class="header__nav">
                   <ul class="header__change">
-                    <li @click="changeLanguage('uz')" class="header__switch"><a href="#">UZ</a></li>
-                    <li @click="changeLanguage('en')" class="header__switch"><a href="#">EN</a></li>
-                    <li @click="changeLanguage('ru')" class="header__switch"><a href="#">RU</a></li>
+                    <li @click="changeLanguage('uz')" class="header__switch">
+                      <span data-bs-dismiss="offcanvas"><a href="#">UZ</a></span>
+                    </li>
+                    <li @click="changeLanguage('en')" class="header__switch">
+                      <span data-bs-dismiss="offcanvas"><a href="#">EN</a></span>
+                    </li>
+                    <li @click="changeLanguage('ru')" class="header__switch">
+                      <span data-bs-dismiss="offcanvas"><a href="#">RU</a></span>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -79,8 +128,11 @@
           </div>
         </div>
         <div class="col-6">
-          <a href="/" class="header__mobile d-flex justify-content-center align-items-center">
-            <img src="/logo.png" alt="logo">
+          <a
+            href="/"
+            class="header__mobile d-flex justify-content-center align-items-center"
+          >
+            <img src="/logo.png" alt="logo" />
           </a>
         </div>
         <div class="col-3 d-flex justify-content-end align-items-center">
@@ -97,29 +149,27 @@
   <section class="hero">
     <div class="container">
       <h1 class="hero__title">
-        {{ $t('hero.company') }}
+        {{ $t("hero.company") }}
       </h1>
       <p class="hero__desc">
-        {{ $t('hero.text') }}
+        {{ $t("hero.text") }}
       </p>
       <div class="hero__buttons d-flex align-items-center">
         <!-- <a class="button custom-btn btn-3 request-loader" href="#projects">
         </a> -->
         <a class="button" href="#projects">
-          <span class="label">{{ $t('hero.button1') }}</span>
+          <span class="label">{{ $t("hero.button1") }}</span>
           <span class="icon">
             <span></span>
           </span>
-          <span class="icon2">
-          </span>
+          <span class="icon2"> </span>
         </a>
         <a class="button" href="tel: +998 789 6363">
-          <span class="label">{{ $t('hero.button2') }}</span>
+          <span class="label">{{ $t("hero.button2") }}</span>
           <span class="icon">
             <span></span>
           </span>
-          <span class="icon2">
-          </span>
+          <span class="icon2"> </span>
         </a>
       </div>
     </div>
@@ -127,43 +177,55 @@
   <!-- Hero End -->
 
   <!-- Service Start -->
-  <section class="service">
+  <section class="service" id="services">
     <div class="container">
       <div class="service__headline">
         <h2 data-aos="fade-up">
-          {{ $t('service.main') }}
+          {{ $t("service.main") }}
         </h2>
       </div>
       <div class="row">
         <div class="col-md-8 mb-4 mb-md-0">
-          <div data-aos="fade-up" class="service__box service__box-1"
-            style="background-image: url(/s1.png); transition: all .3s ease; ">
+          <div
+            data-aos="fade-up"
+            class="service__box service__box-1"
+            style="background-image: url(/s1.png); transition: all 0.3s ease"
+          >
             <div class="service__title">
-              <h2>{{ $t('service.service1') }}</h2>
+              <h2>{{ $t("service.service1") }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div data-aos="fade-up" class="service__box service__box-2"
-            style="background-image: url(/s2.png); transition: all .3s ease;">
+          <div
+            data-aos="fade-up"
+            class="service__box service__box-2"
+            style="background-image: url(/s2.png); transition: all 0.3s ease"
+          >
             <div class="service__title">
-              <h2>{{ $t('service.service2') }}</h2>
+              <h2>{{ $t("service.service2") }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-4">
-          <div data-aos="fade-up" class="service__box service__box-3"
-            style="background-image: url(/s3.png); transition: all .3s ease;">
+          <div
+            data-aos="fade-up"
+            class="service__box service__box-3"
+            style="background-image: url(/s3.png); transition: all 0.3s ease"
+          >
             <div class="service__title">
-              <h2>{{ $t('service.service3') }}</h2>
+              <h2>{{ $t("service.service3") }}</h2>
             </div>
           </div>
         </div>
         <div class="col-md-8 mt-4">
-          <div data-aos="fade-up" class="service__box service__box-4"
-            style="background-image: url(/s4.png); transition: all .3s ease;">
+          <div
+            data-aos="fade-up"
+            class="service__box service__box-4"
+            style="background-image: url(/s4.png); transition: all 0.3s ease"
+          >
             <div class="service__title">
-              <h2>{{ $t('service.service4') }}</h2>
+              <h2>{{ $t("service.service4") }}</h2>
             </div>
           </div>
         </div>
@@ -173,27 +235,27 @@
   <!-- Service End -->
 
   <!-- Company Start -->
-  <section class="company">
+  <section class="company" id="aboutUs">
     <div class="container">
       <div class="company__title">
-        <h3>{{ $t('company.text') }}</h3>
+        <h3>{{ $t("company.text") }}</h3>
       </div>
       <div class="company__flex">
         <div class="company__box">
           <h2 ref="counterEmployee">120+</h2>
-          <span>{{ $t('company.employee') }}</span>
+          <span>{{ $t("company.employee") }}</span>
         </div>
         <div class="company__box">
           <h2 ref="counterObjects">40+</h2>
-          <span>{{ $t('company.objects') }}</span>
+          <span>{{ $t("company.objects") }}</span>
         </div>
         <div class="company__box">
           <h2 ref="counterEquipment">340+</h2>
-          <span>{{ $t('company.equipment') }}</span>
+          <span>{{ $t("company.equipment") }}</span>
         </div>
         <div class="company__box">
           <h2 ref="counterYear">2+</h2>
-          <span>{{ $t('company.year') }}</span>
+          <span>{{ $t("company.year") }}</span>
         </div>
       </div>
     </div>
@@ -204,26 +266,26 @@
   <section class="dream">
     <div class="container-fluid">
       <div class="dream__title text-center">
-        <h3>{{ $t('dream') }}</h3>
+        <h3>{{ $t("dream") }}</h3>
       </div>
       <div class="row">
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg1.jpg" alt="bg">
+          <img src="/bg1.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg2.jpg" alt="bg">
+          <img src="/bg2.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg3.jpg" alt="bg">
+          <img src="/bg3.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg4.jpg" alt="bg">
+          <img src="/bg4.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg5.jpg" alt="bg">
+          <img src="/bg5.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-lg-4">
-          <img src="/bg6.jpg" alt="bg">
+          <img src="/bg6.jpg" alt="bg" />
         </div>
       </div>
     </div>
@@ -231,63 +293,111 @@
   <!-- Dream End -->
 
   <!-- Projects Start -->
-  <section class="project">
+  <section class="project" id="projects">
     <div class="container">
       <div class="project__title">
-        <h3>{{ $t('project.text') }}</h3>
+        <h3>{{ $t("project.text") }}</h3>
       </div>
       <div class="row">
         <div data-aos="fade-right" class="col-md-6 mb-4">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p1.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p1.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card1.text') }}</h3>
-              <p>{{ $t('project.card1.desc') }}</p>
+              <h3>{{ $t("project.card1.text") }}</h3>
+              <p>{{ $t("project.card1.desc") }}</p>
             </div>
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p2.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p2.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card2.text') }}</h3>
-              <p>{{ $t('project.card2.desc') }}</p>
+              <h3>{{ $t("project.card2.text") }}</h3>
+              <p>{{ $t("project.card2.desc") }}</p>
             </div>
           </div>
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p3.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p3.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card3.text') }}</h3>
-              <p>{{ $t('project.card3.desc') }}</p>
+              <h3>{{ $t("project.card3.text") }}</h3>
+              <p>{{ $t("project.card3.desc") }}</p>
             </div>
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p4.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p4.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card4.text') }}</h3>
-              <p>{{ $t('project.card4.desc') }}</p>
+              <h3>{{ $t("project.card4.text") }}</h3>
+              <p>{{ $t("project.card4.desc") }}</p>
             </div>
           </div>
         </div>
         <div data-aos="fade-right" class="col-md-6 mb-4 mb-md-0">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p5.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p5.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card5.text') }}</h3>
-              <p>{{ $t('project.card5.desc') }}</p>
+              <h3>{{ $t("project.card5.text") }}</h3>
+              <p>{{ $t("project.card5.desc") }}</p>
             </div>
           </div>
         </div>
         <div data-aos="fade-left" class="col-md-6 mb-4 mb-md-0">
-          <div class="project__card"
-            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3) 60%, rgb(0, 0, 0)), url(/p6.webp);">
+          <div
+            class="project__card"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.3) 60%,
+                  rgb(0, 0, 0)
+                ),
+                url(/p6.webp);
+            "
+          >
             <div class="project__box">
-              <h3>{{ $t('project.card6.text') }}</h3>
-              <p>{{ $t('project.card6.desc') }}</p>
+              <h3>{{ $t("project.card6.text") }}</h3>
+              <p>{{ $t("project.card6.desc") }}</p>
             </div>
           </div>
         </div>
@@ -297,22 +407,22 @@
   <!-- Projects End -->
 
   <!-- News Start  -->
-  <section class="news">
+  <section class="news" id="news">
     <div class="container">
       <div class="news__title">
-        <h2>{{ $t('news.text') }}</h2>
+        <h2>{{ $t("news.text") }}</h2>
       </div>
       <div class="row">
         <div data-aos="zoom-in" class="col-lg-6 mb-4">
           <div class="news__box">
             <div class="row">
               <div class="col-md-6 news__img">
-                <img src="/n1.jpg" alt="n1">
+                <img src="/n1.jpg" alt="n1" />
               </div>
               <div class="col-md-6">
                 <div class="news__card">
-                  <h4>{{ $t('news.card1.text') }}</h4>
-                  <p>{{ $t('news.card1.desc') }}</p>
+                  <h4>{{ $t("news.card1.text") }}</h4>
+                  <p>{{ $t("news.card1.desc") }}</p>
                 </div>
               </div>
             </div>
@@ -322,12 +432,12 @@
           <div class="news__box">
             <div class="row">
               <div class="col-md-6 news__img">
-                <img src="/n2.jpg" alt="n1">
+                <img src="/n2.jpg" alt="n1" />
               </div>
               <div class="col-md-6">
                 <div class="news__card">
-                  <h4>{{ $t('news.card2.text') }}</h4>
-                  <p>{{ $t('news.card2.desc') }}</p>
+                  <h4>{{ $t("news.card2.text") }}</h4>
+                  <p>{{ $t("news.card2.desc") }}</p>
                 </div>
               </div>
             </div>
@@ -337,12 +447,12 @@
           <div class="news__box">
             <div class="row">
               <div class="col-md-6 news__img">
-                <img src="/n3.jpg" alt="n1">
+                <img src="/n3.jpg" alt="n1" />
               </div>
               <div class="col-md-6">
                 <div class="news__card">
-                  <h4>{{ $t('news.card3.text') }}</h4>
-                  <p>{{ $t('news.card3.desc') }}</p>
+                  <h4>{{ $t("news.card3.text") }}</h4>
+                  <p>{{ $t("news.card3.desc") }}</p>
                 </div>
               </div>
             </div>
@@ -352,12 +462,12 @@
           <div class="news__box">
             <div class="row">
               <div class="col-md-6 news__img">
-                <img src="/n4.jpg" alt="n1">
+                <img src="/n4.jpg" alt="n1" />
               </div>
               <div class="col-md-6">
                 <div class="news__card">
-                  <h4>{{ $t('news.card4.text') }}</h4>
-                  <p>{{ $t('news.card4.desc') }}</p>
+                  <h4>{{ $t("news.card4.text") }}</h4>
+                  <p>{{ $t("news.card4.desc") }}</p>
                 </div>
               </div>
             </div>
@@ -372,32 +482,32 @@
   <section class="exchange">
     <div class="container-fluid">
       <div class="exchange__title text-center">
-        <h3>{{ $t('exchange') }}</h3>
+        <h3>{{ $t("exchange") }}</h3>
       </div>
       <div class="row">
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e1.jpg" alt="bg">
+          <img src="/e1.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e2.jpg" alt="bg">
+          <img src="/e2.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e3.jpg" alt="bg">
+          <img src="/e3.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e4.jpg" alt="bg">
+          <img src="/e4.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e5.jpg" alt="bg">
+          <img src="/e5.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e6.jpg" alt="bg">
+          <img src="/e6.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e7.jpg" alt="bg">
+          <img src="/e7.jpg" alt="bg" />
         </div>
         <div data-aos="zoom-in" class="col-6 col-md-3">
-          <img src="/e8.jpg" alt="bg">
+          <img src="/e8.jpg" alt="bg" />
         </div>
       </div>
     </div>
@@ -405,22 +515,21 @@
   <!-- Exchange End -->
 
   <!-- Building Start -->
-  <section class="building">
+  <section class="building" id="features">
     <div class="container">
       <div class="building__text">
-        <h2>{{ $t('hero.company') }}</h2>
+        <h2>{{ $t("hero.company") }}</h2>
       </div>
       <div class="building__desc">
-        <p>{{ $t('building.text') }}</p>
+        <p>{{ $t("building.text") }}</p>
       </div>
       <div class="building__btn">
         <a class="button" href="#projects">
-          <span class="label">{{ $t('building.btn') }}</span>
+          <span class="label">{{ $t("building.btn") }}</span>
           <span class="icon">
             <span></span>
           </span>
-          <span class="icon2">
-          </span>
+          <span class="icon2"> </span>
         </a>
       </div>
     </div>
@@ -428,29 +537,49 @@
   <!-- Building End -->
 
   <!-- Contact Start -->
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
       <div class="contact__box">
         <div class="contact__text">
-          <h2>{{ $t('contact.text') }}</h2>
+          <h2>{{ $t("contact.text") }}</h2>
         </div>
         <div class="row">
           <div class="col-lg-6">
             <form @submit.prevent="submitForm">
               <div class="mb-3">
-                <input type="text" id="name" autocomplete="name" v-model="fullName" class="form-control form-control-lg"
-                  :placeholder="`${$t('contact.name')}`">
+                <input
+                  type="text"
+                  required
+                  id="name"
+                  autocomplete="name"
+                  v-model="fullName"
+                  class="form-control form-control-lg"
+                  :placeholder="`${$t('contact.name')}`"
+                />
               </div>
               <div class="mb-3">
-                <input type="tel" id="phone" autocomplete="tel" v-model="phone_number" class="form-control form-control-lg"
-                  :placeholder="`${$t('contact.phone')}`">
+                <input
+                  type="tel"
+                  required
+                  id="phone"
+                  autocomplete="tel"
+                  v-model="phone_number"
+                  class="form-control form-control-lg"
+                  :placeholder="`${$t('contact.phone')}`"
+                />
               </div>
               <div class="mb-3 mt-4">
-                <textarea id="message" class="form-control form-control-lg" v-model="message"
-                  :placeholder="`${$t('contact.message')}`" rows="6"></textarea>
+                <textarea
+                  id="message"
+                  required
+                  class="form-control form-control-lg"
+                  v-model="message"
+                  :placeholder="`${$t('contact.message')}`"
+                  rows="6"
+                ></textarea>
               </div>
               <div class="contact__btn">
-                <button type="submit">{{ $t('contact.btn') }}</button>
+                <button type="submit">{{ $t("contact.btn") }}</button>
               </div>
             </form>
           </div>
@@ -463,14 +592,14 @@
   <div class="popup" v-if="isOpen">
     <div class="popup__box text-center">
       <i v-if="isError == false" class="fa-regular fa-circle-check"></i>
-      <i v-else class="fa-regular fa-circle-xmark" style="color: red;"></i>
+      <i v-else class="fa-regular fa-circle-xmark" style="color: red"></i>
       <h4 v-if="isError == false">
-        {{ $t('popup.text') }}
+        {{ $t("popup.text") }}
       </h4>
       <h4 v-else>
-        {{ $t('popup.error') }}
+        {{ $t("popup.error") }}
       </h4>
-      <button @click="closePop">{{ $t('popup.btn') }}</button>
+      <button @click="closePop">{{ $t("popup.btn") }}</button>
     </div>
   </div>
 
@@ -480,29 +609,43 @@
       <div class="row">
         <div class="col-lg-5 mb-4 mb-lg-0">
           <div class="footer__logo">
-            <a href="/"><img src="/logof.png" alt=""></a>
+            <a href="/"><img src="/logof.png" alt="" /></a>
           </div>
-          <p>{{ $t('footer.desc') }}</p>
+          <p>{{ $t("footer.desc") }}</p>
           <ul class="footer__social">
-            <li><a href="#">
+            <li>
+              <a href="#">
                 <i class="fa-brands fa-instagram"></i>
-              </a></li>
-            <li><a href="#">
+              </a>
+            </li>
+            <li>
+              <a href="#">
                 <i class="fa-brands fa-facebook"></i>
-              </a></li>
+              </a>
+            </li>
           </ul>
         </div>
-        <div class="col-lg-5  mb-4  mb-lg-0">
-          <h4>{{ $t('footer.company') }}</h4>
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <h4>{{ $t("footer.company") }}</h4>
           <ul class="footer__menu">
-            <li><a href="#">{{ $t('footer.menu1.text1') }}</a></li>
-            <li><a href="#">{{ $t('footer.menu1.text2') }}</a></li>
-            <li><a href="#">{{ $t('footer.menu1.text3') }}</a></li>
-            <li><a href="#">{{ $t('footer.menu1.text4') }}</a></li>
+            <li>
+              <a href="#">{{ $t("footer.menu1.text1") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.menu1.text2") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.menu1.text3") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.menu1.text4") }}</a>
+            </li>
           </ul>
         </div>
-        <div class="col-lg-2  mb-4 mb-lg-0 text-lg-end">
-          <h4 style="width: 100%; text-align: left;">{{ $t('footer.contact') }}</h4>
+        <div class="col-lg-2 mb-4 mb-lg-0 text-lg-end">
+          <h4 style="width: 100%; text-align: left">
+            {{ $t("footer.contact") }}
+          </h4>
           <ul class="footer__menu">
             <li><a href="#">+998974839999</a></li>
             <li><a href="#">+998997126666</a></li>
@@ -512,50 +655,47 @@
     </div>
   </footer>
   <!-- Footer End -->
-
-
 </template>
 
 <script>
-
-import Aos from 'aos';
+import Aos from "aos";
 
 export default {
   methods: {
     changeLanguage(lang) {
-      localStorage.setItem("lang", lang)
+      localStorage.setItem("lang", lang);
       this.$i18n.locale = lang;
-    }
+    },
   },
   mounted() {
-    Aos.init()
-  }
-}
+    Aos.init();
+  },
+};
 </script>
 
 <script setup>
-import { ref, onMounted } from 'vue';
-import { CountUp } from 'countup.js';
-import axios from 'axios';
+import { ref, onMounted } from "vue";
+import { CountUp } from "countup.js";
+import axios from "axios";
 
 const counterEmployee = ref(null);
 const counterObjects = ref(null);
 const counterEquipment = ref(null);
 const counterYear = ref(null);
-const token = ref("7069003625:AAGAQJns8zC96OqRSQIwC8Ewj1efbWCnIW0")
-const chat_id = ref("237282713")
-const fullName = ref("")
-const phone_number = ref("")
-const message = ref("")
+const token = ref("7069003625:AAGAQJns8zC96OqRSQIwC8Ewj1efbWCnIW0");
+const chat_id = ref("237282713");
+const fullName = ref("");
+const phone_number = ref("");
+const message = ref("");
 
-const isOpen = ref(false)
+const isOpen = ref(false);
 const isError = ref(false);
 
 const initCounters = () => {
   const options = {
     duration: 3, // Duration in seconds
-    separator: '', // Separator for large numbers
-    suffix: '+' // Suffix for the numbers
+    separator: "", // Separator for large numbers
+    suffix: "+", // Suffix for the numbers
   };
 
   const employeeCountUp = new CountUp(counterEmployee.value, 120, options);
@@ -592,7 +732,6 @@ onMounted(() => {
   initCounters();
 });
 
-
 async function submitForm() {
   try {
     const response = await axios.post(
@@ -602,20 +741,19 @@ async function submitForm() {
         text: `Name: ${fullName.value}\nPhone Number: ${phone_number.value}\nMessage: ${message.value}`,
       }
     );
-    isOpen.value = true
+    isOpen.value = true;
     fullName.value = "";
     phone_number.value = "";
     message.value = "";
   } catch (error) {
-    isOpen.value = true
-    isError.value = true
+    isOpen.value = true;
+    isError.value = true;
   }
 }
 function closePop() {
-  isOpen.value = false
-  isError.value = false
+  isOpen.value = false;
+  isError.value = false;
 }
-
 </script>
 
 <style lang="scss">
@@ -630,7 +768,6 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-
 }
 
 a {
@@ -652,7 +789,6 @@ img {
 
 // Button Styles
 
-
 .button {
   margin: 20px;
   float: left;
@@ -668,14 +804,12 @@ img {
 
   &:hover {
     .icon {
-
       &:before,
       &:after {
         width: 100%;
       }
 
       span {
-
         &:before,
         &:after {
           height: 100%;
@@ -712,7 +846,7 @@ img {
 
     &:before,
     &:after {
-      content: '';
+      content: "";
       height: 1px;
       width: 30px;
       position: absolute;
@@ -733,10 +867,9 @@ img {
     }
 
     span {
-
       &:before,
       &:after {
-        content: '';
+        content: "";
         background: #fff;
         position: absolute;
         display: block;
@@ -757,9 +890,7 @@ img {
       }
     }
   }
-
 }
-
 
 // Popup Styles
 .popup {
@@ -801,7 +932,7 @@ img {
     border: 1px solid #000;
     padding: 10px 45px;
     border-radius: 50px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 
     &:hover {
       color: #fff;
@@ -904,7 +1035,7 @@ img {
       content: "";
       position: absolute;
       bottom: -5px;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       width: 100%;
       height: 2px;
       background-color: #fff;
@@ -935,7 +1066,7 @@ img {
 
     &-lang {
       opacity: 0;
-      transition: all .4s ease;
+      transition: all 0.4s ease;
       transform: translateY(25px) translateX(-16px);
       position: absolute;
       border-radius: 10px;
@@ -951,7 +1082,6 @@ img {
   &__main {
     text-transform: uppercase;
   }
-
 }
 
 // Hero Styles
@@ -976,14 +1106,14 @@ img {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   &__title {
     color: #fff;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: .045em;
+    letter-spacing: 0.045em;
     font-size: 4.35rem;
     font-weight: 700;
     line-height: 1.3;
@@ -1022,7 +1152,7 @@ img {
   }
 
   &__box {
-    background-color: #2C3442;
+    background-color: #2c3442;
     border-radius: 15px;
     padding: 25px;
     min-height: 200px;
@@ -1042,13 +1172,13 @@ img {
 
     &-1,
     &-4 {
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       background-size: 35%;
     }
 
     &-3,
     &-2 {
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       background-size: 60%;
     }
 
@@ -1125,7 +1255,7 @@ img {
     height: 350px;
     cursor: pointer;
     padding: 0 !important;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     overflow: hidden;
 
     &:hover {
@@ -1141,7 +1271,7 @@ img {
       object-fit: cover;
       transform: scale(1);
       height: 100%;
-      transition: all .4s ease;
+      transition: all 0.4s ease;
     }
   }
 }
@@ -1161,7 +1291,7 @@ img {
     height: 400px;
     cursor: pointer;
     padding: 0 !important;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     overflow: hidden;
 
     &:hover {
@@ -1177,7 +1307,7 @@ img {
       object-fit: cover;
       transform: scale(1);
       height: 100%;
-      transition: all .4s ease;
+      transition: all 0.4s ease;
     }
   }
 }
@@ -1218,13 +1348,12 @@ img {
       .project__box {
         transform: translateY(0%);
       }
-
     }
   }
 
   &__box {
     transform: translateY(90%);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
     min-height: 100%;
   }
 }
@@ -1234,7 +1363,7 @@ img {
 .news {
   padding-top: 50px;
   padding-bottom: 60px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 
   &__title {
     margin-bottom: 40px;
@@ -1247,7 +1376,7 @@ img {
 
   &__box {
     background-color: #fbfbfb;
-    box-shadow: 0 3.21616px 33.7697px rgba(0, 0, 0, .05);
+    box-shadow: 0 3.21616px 33.7697px rgba(0, 0, 0, 0.05);
     border-radius: 24px;
     overflow: hidden;
 
@@ -1255,7 +1384,7 @@ img {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
     }
 
     &:hover {
@@ -1362,7 +1491,7 @@ img {
       background: none;
       border: 1px solid #fff;
       color: #fff;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
         background-color: #fff;
@@ -1402,7 +1531,7 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       border: 1px solid transparent;
 
       &:hover {
@@ -1426,14 +1555,15 @@ img {
   }
 
   &__menu {
-      li {
+    li {
       position: relative;
       margin-bottom: 15px;
       font-size: 20px;
 
       a {
         color: #8b8686;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
+
         &:hover {
           color: #000;
         }
@@ -1445,7 +1575,6 @@ img {
 // Media Styles
 
 @media (min-width: 1400px) {
-
   .container,
   .container-lg,
   .container-md,
@@ -1455,7 +1584,6 @@ img {
     max-width: 1140px;
   }
 }
-
 
 @media (max-width: 992px) {
   .header {
@@ -1584,10 +1712,12 @@ img {
       height: 200px;
     }
   }
+
   .footer {
     h4 {
       font-size: 20px;
     }
+
     li {
       font-size: 18px;
     }
